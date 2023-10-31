@@ -1,0 +1,108 @@
+/* 水平间距 */
+/* 水平间距 */
+page {
+  background-image: linear-gradient(to top, #2671d3 0%, #1d57a2 1000%);
+}
+.container {
+  padding: 20px;
+  font-size: 14px;
+  line-height: 24px;
+}
+.container .card {
+  display: flex;
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px 15px;
+}
+.container .card button {
+  /* 去除按钮默认样式 */
+  background: transparent;
+  border: none;
+  color: inherit;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  height: auto;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+}
+.container .card button image {
+  align-self: center;
+}
+.container .card .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 12px;
+  margin-left: 30px;
+  color: #7a7a7a;
+}
+.container .card .content .name {
+  font-size: 18px;
+  color: #000000;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.container .laws .titles {
+  margin: 20px 0;
+  display: flex;
+}
+.container .laws .titles .title {
+  width: 80px;
+  margin-right: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  color: #484848;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  padding: 5px 0;
+}
+.container .laws .titles .select {
+  background: #fff;
+  color: #000000;
+}
+.container .laws .laws_list {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px 0px;
+  font-size: 14px;
+}
+.container .laws .laws_list .law {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .laws .laws_list .law .main {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.container .laws .laws_list .law .main image {
+  padding: 10px;
+}
+.container .laws .laws_list .law .main .name {
+  font-size: 15px;
+}
+.container .laws .laws_list .law .main .about {
+  color: #7a7a7a;
+}
+.container .laws .laws_list .law .more {
+  color: #2671d3;
+  padding: 0 6px;
+  margin-right: 10px;
+  border: 1px solid #2671d3;
+  border-radius: 15px;
+  min-width: 30px;
+  text-align: center;
+}
+.container .laws .boot {
+  border-radius: 15px;
+  background: #fff;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

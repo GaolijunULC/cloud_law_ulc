@@ -1,0 +1,168 @@
+/* 水平间距 */
+/* 水平间距 */
+view.data-v-0a633310,
+button.data-v-0a633310,
+text.data-v-0a633310,
+input.data-v-0a633310,
+textarea.data-v-0a633310 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 聊天消息 */
+.chatPage.data-v-0a633310 {
+  overflow: hidden;
+  /* 底部聊天发送栏 */
+}
+.chatPage .scroll-view.data-v-0a633310 {
+  background-color: #F6F6F6;
+}
+.chatPage .scroll-view.data-v-0a633310 ::-webkit-scrollbar {
+  display: none;
+  width: 0 !important;
+  height: 0 !important;
+  -webkit-appearance: none;
+  background: transparent;
+  color: transparent;
+}
+.chatPage .scroll-view .chat-body.data-v-0a633310 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 23rpx;
+}
+.chatPage .scroll-view .chat-body .self.data-v-0a633310 {
+  justify-content: flex-end;
+}
+.chatPage .scroll-view .chat-body .item.data-v-0a633310 {
+  display: flex;
+  padding: 23rpx 30rpx;
+}
+.chatPage .scroll-view .chat-body .item .chat .time.data-v-0a633310 {
+  font-size: 12px;
+  color: #666666;
+  margin: 5rpx 20rpx;
+  padding: 5rpx 20rpx;
+}
+.chatPage .scroll-view .chat-body .item .chat .recommend.data-v-0a633310 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.chatPage .scroll-view .chat-body .item .chat .recommend .t.data-v-0a633310 {
+  font-size: 22px;
+}
+.chatPage .scroll-view .chat-body .item .chat .recommend .h.data-v-0a633310 {
+  font-size: 16px;
+}
+.chatPage .scroll-view .chat-body .item .chat .recommend .icon.data-v-0a633310 {
+  margin: 10px 5px;
+}
+.chatPage .scroll-view .chat-body .item .right.data-v-0a633310 {
+  background-color: #2671d3;
+  color: #FFFFFF !important;
+}
+.chatPage .scroll-view .chat-body .item .left.data-v-0a633310 {
+  background-color: #FFFFFF;
+}
+.chatPage .scroll-view .chat-body .item .right.data-v-0a633310::after {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  width: 0;
+  height: 0;
+  left: 100%;
+  top: 10px;
+  border: 12rpx solid transparent;
+  border-left: 12rpx solid #2671d3;
+}
+.chatPage .scroll-view .chat-body .item .left.data-v-0a633310::after {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  width: 0;
+  height: 0;
+  top: 10px;
+  right: 100%;
+  border: 12rpx solid transparent;
+  border-right: 12rpx solid #FFFFFF;
+}
+.chatPage .scroll-view .chat-body .item .content.data-v-0a633310 {
+  position: relative;
+  max-width: 486rpx;
+  border-radius: 8rpx;
+  word-wrap: break-word;
+  padding: 24rpx 24rpx;
+  margin: 0 24rpx;
+  border-radius: 5px;
+  font-size: 32rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 50rpx;
+}
+.chatPage .scroll-view .chat-body .item .content .link.data-v-0a633310 {
+  color: #2671d3;
+  display: inline-block;
+  -webkit-text-decoration: #2671d3;
+          text-decoration: #2671d3;
+}
+.chatPage .scroll-view .chat-body .item .avatar.data-v-0a633310 {
+  display: flex;
+  justify-content: center;
+  width: 78rpx;
+  height: 78rpx;
+  background: transparent;
+  border-radius: 8rpx;
+  overflow: hidden;
+}
+.chatPage .scroll-view .chat-body .item .avatar image.data-v-0a633310 {
+  align-self: center;
+}
+.chatPage .chat-bottom.data-v-0a633310 {
+  width: 100%;
+  height: 127rpx;
+  background: #F4F5F7;
+}
+.chatPage .chat-bottom .send-msg.data-v-0a633310 {
+  display: flex;
+  align-items: flex-end;
+  padding: 16rpx 30rpx;
+  width: 100%;
+  min-height: 127rpx;
+  position: fixed;
+  background: #EDEDED;
+  display: flex;
+  align-items: center;
+}
+.chatPage .chat-bottom .send-msg .send-btn.data-v-0a633310 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20rpx;
+  margin-left: 25rpx;
+  width: 128rpx;
+  height: 75rpx;
+  background: #4F7DF5;
+  border-radius: 8rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 28rpx;
+}
+.chatPage .chat-bottom .send-msg .uni-textarea.data-v-0a633310 {
+  margin-bottom: 20rpx;
+  background: #FFFFFF;
+  padding: 15rpx 8rpx;
+  border-radius: 8rpx;
+}
+.chatPage .chat-bottom .send-msg .uni-textarea textarea.data-v-0a633310 {
+  width: 537rpx;
+  min-height: 43rpx;
+  max-height: 500rpx;
+  font-size: 35rpx;
+  font-family: PingFang SC;
+  color: #333333;
+  line-height: 36rpx;
+}

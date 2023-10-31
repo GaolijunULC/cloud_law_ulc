@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "智慧云律",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#1d57a2",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-swipe-action-item": "../../uni_modules/uni-swipe-action/components/uni-swipe-action-item/uni-swipe-action-item",
+    "uni-swipe-action": "../../uni_modules/uni-swipe-action/components/uni-swipe-action/uni-swipe-action"
+  }
+}

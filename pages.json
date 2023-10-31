@@ -1,0 +1,74 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "智慧云律",
+			"enablePullDownRefresh": true
+		}
+	}, {
+		"path": "pages/my/my",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/chat/chat",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": true
+		}
+
+	}, {
+		"path": "pages/talks/talks",
+		"style": {
+			"navigationBarTitleText": "智慧云律",
+			"navigationBarTextStyle": "white",
+			"navigationBarBackgroundColor": "#1d57a2",
+			"enablePullDownRefresh": true
+		}
+
+	}, {
+		"path": "pages/lawyer/lawyer",
+		"style": {
+			"navigationBarTitleText": "云律专业律师",
+			"enablePullDownRefresh": false,
+			"navigationBarBackgroundColor": "#2570d0",
+			"navigationBarTextStyle": "white"
+		}
+
+	}, {
+		"path": "pages/hall/hall",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#BDBDBD",
+		"selectedColor": "#2671d3",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"iconPath": "static/icon/home_default.png",
+			"selectedIconPath": "static/icon/home_select.png"
+		}, {
+			"pagePath": "pages/talks/talks",
+			"text": "聊天",
+			"iconPath": "static/icon/talks_default.png",
+			"selectedIconPath": "static/icon/chat_select.png"
+		}]
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "云律专业律师",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#2570d0",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "uni-section": "../../uni_modules/uni-section/components/uni-section/uni-section"
+  }
+}

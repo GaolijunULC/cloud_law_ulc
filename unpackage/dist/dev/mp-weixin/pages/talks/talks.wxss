@@ -1,0 +1,64 @@
+/* 水平间距 */
+/* 水平间距 */
+page {
+  width: 100%;
+  background: #1d57a2;
+  color: #ffffffff;
+}
+page .top {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+page .top .title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 20px;
+  text-align: left;
+}
+page .top .add {
+  width: 100px;
+  height: 30px;
+  padding: 5px;
+  margin-right: 20px;
+  background: #2168bf;
+  display: flex;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: space-around;
+}
+page .top .add .text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffffff;
+}
+page .talks_list {
+  width: calc(100% - 40px);
+  margin: 0 20px;
+  padding-bottom: 20px;
+}
+page .talks_list .talk {
+  background: #2671d3;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60px;
+  border: #ffffffff 1px solid;
+}
+page .talks_list .talk .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f7f7f7ff;
+}
+page .talks_list .slot_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
