@@ -1,0 +1,47 @@
+server:
+  port: 5254
+
+spring:
+  datasource:
+    type: com.mysql.cj.jdbc.MysqlDataSource
+    url: jdbc:mysql://47.109.45.24:5473/cloud_law?serverTimezone=GMT%2B8
+    username: shu_road
+    password: K7mqSFRlfmgcWtmd1CaORHLL2Ri3PGfg
+
+  redis:
+    database: 0
+    host: 47.109.45.24
+    port: 24833
+    password:
+    jedis:
+      pool:
+        #最大连接数
+        max-active: 8
+        #最大阻塞等待时间(负数表示没限制)
+        max-wait: -1
+        #最大空闲
+        max-idle: 8
+        #最小空闲
+        min-idle: 0
+        #连接超时时间
+    timeout: 10000
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      # 单个文件最大值
+mybatis:
+  configuration:
+    # 设置字段下划线转驼峰
+    map-underscore-to-camel-case: true
+
+wx:
+  appid: wx0a243b853ee099a2
+  secret: 7a14212a92bb0e7691e4009482ead458
+
+chat:
+  key: ap-WTmMmOIytml7Ko0P2ppDeMHH9zybmrntL6Z9jkJMVFKUGfY0
+
+
+upload:
+  path: /usr/local/nginx/html/images/
+  host: "http://47.109.45.24"
